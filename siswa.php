@@ -19,7 +19,7 @@
 
             <div class="uk-width-1-2@s">
 
-                <select class="uk-input" type="text">
+                <select class="uk-input" type="text" >
                     <option value="">Choose Your Class</option>
                     <option value="XI RPL 1">X</option>
                     <option value="XI RPL 2">XI</option>
