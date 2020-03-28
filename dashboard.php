@@ -4,55 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
     <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-<div class="uk-position-relative">
+    <div class="topnav" id="main">
+    <button class="openbtn" onclick="openNav()">☰ Choose Kontrol Data</button>  
+    </div>
 
-    <nav class="uk-navbar-container" uk-navbar="dropbar: true">
-
-        <div class="uk-navbar-left">
-
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a  style="font-size:20px;" href="#">Kelas</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul  style="font-size:20px;"  class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">Kontrol Data Siswa</a></li>
-                            <li><a href="#">Buat Rapot</a></li>
-
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a  style="font-size:20px;" href="#">Mapel</a>
-                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                        <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                            <div>
-                                <ul style="font-size:20px;" class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="#">Cari Siswa</a></li>
-                                    <li><a href="#">Input Nilai</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-        </div>
-
-        
-
-    <div class="uk-navbar-dropbar"></div>
-
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Kontrol Mapel</a>
+  <a href="#">Kontrol Jurusan</a></a>
+  <a href="#">Kontrol Data Kelas (XI, XI, XII )</a>
+  <a href="#">Kontrol Data Ajaran</a>
+  <a href="#">Kontrol Data Guru</a>
 </div>
+<!-- 
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+  </div> -->
 
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+   
 
 </body>
 

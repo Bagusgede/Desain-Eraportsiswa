@@ -34,7 +34,7 @@
                     <option value="XI RPL 2">2</option>
                 </select>
                 
-                <button class="button" style="vertical-align:middle"><span>Next</span></button>
+               <button  <a href="Show-Raport.php"  class="button" style="vertical-align:middle" ><span>Next</span></a></button>
             </div>
             
     </div>
