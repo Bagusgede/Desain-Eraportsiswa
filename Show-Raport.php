@@ -11,7 +11,7 @@
 <body>
     <div>
         <div class="card box-shadow position-center uk-card">
-            <h3 class="uk-card-title">Nilai</h3>
+            <h3 class="uk-card-title">Nilai</h3> 
         </div>
     </div>
 
