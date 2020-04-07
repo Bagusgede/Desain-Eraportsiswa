@@ -18,7 +18,7 @@
         <form class="grid" uk-grid>
 
             <div class="uk-width-1-2@s">
-
+            <!-- plih class -->
                 <select class="uk-input" type="text" >
                     <option value="">Choose Your Class</option>
                     <option value="XI RPL 1">X</option>
@@ -26,7 +26,7 @@
                     <option value="XI RPL 2">XII</option>
                 </select>
             </div>
-            
+            <!-- pilih semester -->
             <div class="uk-width-1-2@s">
                 <select class=" uk-input1" type="text">
                     <option value="">Choose Your Semester</option>
@@ -34,7 +34,7 @@
                     <option value="XI RPL 2">2</option>
                 </select>
                 
-               <button  <a href="Show-Raport.php"  class="button" style="vertical-align:middle" ><span>Next</span></a></button>
+              <a type="sumbit" href="Show-Raport.php" class="button"  style="vertical-align:middle" >Next </a>
             </div>
             
     </div>
